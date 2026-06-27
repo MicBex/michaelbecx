@@ -87,10 +87,10 @@ blockquote {
     display: block;
     margin: 1.5rem 0;
     border: 1px solid var(--accent);
-    filter: grayscale(100%); /* Optional: removes color to fit the brutalist vibe */
+    filter: grayscale(0%); /* Optional: removes color to fit the brutalist vibe */
 }
 .profile-pic:hover {
-    filter: grayscale(0%);
+    filter: grayscale(100%);
 }
 
 .nav-menu {
